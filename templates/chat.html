@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: rgb(208, 221, 208);
+    }
+    .nav{
+        height: 8vh;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        height: 8vh;
+        width: 20%;
+        background-image: url("https://i.postimg.cc/mZ9fPqyQ/AYUPHARMA.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1{
+        margin: 20px 60px;
+        color: #11C067;
+    }
+    .response{
+        height: 70vh;
+        margin: 20px 60px;
+        display: flex;
+        align-self: center;
+        color: rgb(96, 96, 96);
+        border: 2px solid rgb(174, 174, 174);
+    }
+    h2{
+        padding: 10px 10px;
+    }
+    footer{
+        text-align: center;
+        height: 34px;
+        margin-top: 41px;
+        padding-top: 6px;
+        background-color: #3e3e3e;
+    }
+    footer p{
+        font-size: 14px;
+        color: white;
+        background-color: #3e3e3e;
+    }
+    footer p a{
+        background-color: #3e3e3e;
+        color: #11C067;
+        text-decoration: none;
+    }
+</style>
+<body>
+    <div class="nav">
+        <div class="logo"></div>
+    </div>
+    <h1>Here's a Suggestion:</h1>
+    <div class="response">
+        <h2>{{data.solve}}</h2>
+    </div>
+    <footer>
+        <p>Made with ❤️ by <span> <a href="https://github.com/muskaann129" target="_blank">Muskan Gyanani and Team</a></span></p>
+    </footer>
+</body>
+</html>
